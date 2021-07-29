@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Honda | CBR Bootstrap Assignment</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font icon -->
+    <script src="https://kit.fontawesome.com/45c97595a9.js" crossorigin="anonymous"></script>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- header section -->
+     <header class="header-bg">
+         <!-- menu section -->
+         <nav class="navbar   navbar-expand-lg navbar-dark">
+            <div class="container">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav navbar-main navbar-menu ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item ">
+                    <a class="nav-link active menu-link" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active menu-link" href="#shop">Shop</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active menu-link" href="#news">News</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active menu-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item ">
+                    <a class="nav-link active menu-link login-button" href="#login">Login</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!-- hero-section -->
+          <section class="hero-section">
+              <div class="container py-5">
+                <div class="row text-white py-5">
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 py-5">
+                    
+                            <p class="hero-text-first">Computer-controlled digital transistorized with electronic advance</p>
+                            <h1 class="hero-header py-2">Honda CBR 300R</h1>
+                            <p class="hero-text-second">Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit <br> mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+    
+                            <!-- Button of Purchase using modal -->
+                            <button type="button" class=" purchase-button border-0 text-white fw-bold" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Purchase</button>
+                            
+                            <!--Purchase  Modal  -->
+                            <div class="modal fade text-dark " id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-scrollable">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                        <h5 class="modal-title" id="staticBackdropLabel"> Honda Prices</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <table class="table border-primary">
+                                                <thead class="table-secondary">
+                                                    <tr class="table-primary">
+                                                        <th  colspan="2">New Honda CBR150R (ABS)</th>
+                                                    </tr>
+                                                </thead>
+                                                <tbody>
+                                                    <tr class="table-success">
+                                                        <td>Engine :</td>
+                                                        <td> 150 cc (liq-cooled)</td>
+                                                    </tr>
+                                                    <tr class="table-light">
+                                                        <td>Top Speed :</td>
+                                                        <td> 145 Kmph (approx)</td>
+                                                    </tr>
+                                                    <tr class="table-info">
+                                                        <td>Mileage :</td>
+                                                        <td>38 Kmpl (combined)</td>
+                                                    </tr>
+                                                    <tr class="table-danger">
+                                                        <td>Price in BDT :</td>
+                                                        <td> 538,000 (dual ABS)</td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div class="modal-footer">
+                                        <button type="button" class="purchase-button border-0 text-white" data-bs-dismiss="modal">Return To Buy</button>
+                                        <button type="button" class="btn btn-primary">Happy Shopping</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                            <img class="img-fluid"  src="images/header-bike.png" alt="">
+                        </div>
+                </div>
+              </div>  
+          </section>
+     </header>
+     <!-- main section -->
+     <main>
+         <section class="featured-bikes">
+             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="featured-header text-center">Fetured Bikes 2021</h1>
+                    <p class="featured-text text-center">Best bike collection</p>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3  g-5">
+                    <div class="col border-0 ">
+                        <div class="card  border-0 p-3">
+                            <img class="img-fluid gray-img" src="images/feature-bike.jpg" alt="">
+                         </div>
+                     </div>
+                    <div class="col ">
+                        <div class="card border-0 p-3">
+                            <img class="img-fluid " src="images/feature-bike.jpg" alt="">
+                         </div>
+                     </div>
+                    <div class="col ">
+                        <div class="card  border-0  p-3">
+                            <img class="img-fluid gray-img " src="images/feature-bike.jpg" alt="">
+                         </div>
+                     </div>
+                </div>
+             </div>
+         </section>
+         <!-- Latest Section -->
+         <section class="latest-section">
+             <div class="container">
+                 <div class="row">
+                     <div class="col-lg-12">
+                        <h1 class="latest-header text-center">Latest News</h1>
+                     </div>
+                 </div>
+                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3  g-5">
+                     <div class="col ">
+                        <div class="card card-items border-0 p-3">
+                            <img class="img-fluid" src="images/bike-1.png" alt="">
+                            <h3 class=" cardheader">Ducati XDIAVEL S-73</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+                            <div>
+                                <button type="button" class=" readmore-button   fw-bold" >Read More</button>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col ">
+                        <div class="card card-items border-0 p-3">
+                            <img class="img-fluid" src="images/bike-1.png" alt="">
+                            <h3 class=" cardheader">Ducati XDIAVEL S-73</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+                            <div>
+                                <button type="button" class=" readmore-button   fw-bold" >Read More</button>
+                            </div>
+                         </div>
+                     </div>
+                     <div class="col ">
+                        <div class="card card-items border-0 p-3">
+                            <img class="img-fluid" src="images/bike-1.png" alt="">
+                            <h3 class=" cardheader">Ducati XDIAVEL S-73</h3>
+                            <p class="cardpara">Lorem ipsum dolor sit amet, consectetur <br> adipiscing elit. Lacus, fermentum amet <br> faucibus sed id nisi lectus at.</p>
+                            <div>
+                                <button type="button" class=" readmore-button   fw-bold" >Read More</button>
+                            </div>
+                        </div>
+                     </div>
+                 </div>        
+             </div>
+         </section>
+         <section class="happy-clients">
+             <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                       <h1 class="latest-header text-center">Happy <span class="text-color">Clients says</span> </h1>
+                    </div>
+                </div>
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 row-cols-xl-3 row-cols-xxl-3  g-3">
+                    <div class="col ">
+                        <div class="card  border-0 p-3 ">
+                            <div class=" card-user text-center">
+                                <img class="img-user " src="images/user-1.png" alt="">
+                                <p class="cardpara ">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your financial <br>
+                                goal for the month and year.</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <p class="user-text fw-bold">Regina Miles</p>
+                                <p class="fw-bold">Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card  border-0 p-3 ">
+                            <div class=" card-user text-center">
+                                <img class="img-user " src="images/user-2.png" alt="">
+                                <p class="cardpara ">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your financial <br>
+                                goal for the month and year.</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <p class="user-text fw-bold">Regina Miles</p>
+                                <p class="fw-bold">Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col ">
+                        <div class="card  border-0 p-3 ">
+                            <div class=" card-user text-center">
+                                <img class="img-user " src="images/user-3.png" alt="">
+                                <p class="cardpara ">Slate helps you see how <br>
+                                many more days you need <br>
+                                to work to reach your financial <br>
+                                goal for the month and year.</p>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                                <p class="user-text fw-bold">Regina Miles</p>
+                                <p class="fw-bold">Banker</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+         <!-- Frequently asked questions -->
+         <section class="Questions">
+             <div class="container">
+                 <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="latest-header text-center">Frequently<span class="text-color"> Asked Questions</span> </h1>
+                     </div>
+                 </div>
+                 <div class="row">
+                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 p-5">
+                         <img class="img-fluid" src="images/faq.png" alt="">
+                     </div>
+                     <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                        <div class="accordion" id="accordionExample">
+                            <div class="accordion-item  mb-4">
+                              <h2 class="accordion-header  mb-0" id="headingOne">
+                                <button class="accordion-button  border-0 text-dark bg-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    What are the most important things I should
+                                    know about riding a bike?
+                                </button>
+                              </h2>
+                              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    </p>  
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-4">
+                              <h2 class="accordion-header mb-0" id="headingTwo">
+                                <button class="accordion-button collapsed border-0 text-dark bg-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                    How can I tell if my helmet is old and I need a 
+                                    new one?
+                                </button>
+                              </h2>
+                              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                  <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                </p> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item mb-4">
+                              <h2 class="accordion-header mb-0" id="headingThree">
+                                <button class="accordion-button collapsed border-0 text-dark bg-white  fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                    My bike has been in storage is it safe to ride?
+                                </button>
+                              </h2>
+                              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                                <div class="accordion-body">
+                                    <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                    </p> 
+                                </div>
+                              </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                  <button class="accordion-button collapsed border-0 text-dark bg-white fs-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                    What rules should I follow when riding my bike?
+                                  </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                                  <div class="accordion-body">
+                                      <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.
+                                      </p> 
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                    </div>
+                 </div>
+             </div>
+         </section>
+         <!-- extra first section -->
+         <section class="honda-slider">
+             <div class="container">
+                 <h1 class="text-center latest-header">Honda Pictures Slider</h1>
+                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                          <div class="row ">
+                              <div class="col-lg-3 pt-4"><img src="images/bike-1.png" class="d-block w-100" alt="..."></div>
+                              <div class="col-lg-3 pt-4"><img src="images/bike-2.png" class="d-block w-100" alt="..."></div>
+                              <div class="col-lg-3 pt-4"><img src="images/bike-3.png" class="d-block w-100" alt="..."></div>
+                              <div class="col-lg-3 pt-4"><img src="images/bike-4.jpg" class="d-block w-100" alt="..."></div>   
+                          </div>
+                      </div>
+                      <div class="carousel-item pt-3">
+                        <div class="row">
+                            <div class="col-lg-3 pt-4 "><img src="images/feature-bike.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/bajaj-ct100-first1.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/bajaj-pulsar-ns-160-first1.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/suzuki-burgman-200-abs-first1.jpg" class="d-block w-100" alt="..."></div>   
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="row pt-3">
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/suzuki-gixxer-sf-150-first1.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/suzuki-gsx-r150-img-a1.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/bikes/suzuki-samurai-150-first1.jpg" class="d-block w-100" alt="..."></div>
+                            <div class="col-lg-3 pt-4"><img src="images/header-bike.png" class="d-block w-100" alt="..."></div>   
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+             </div>
+         </section>
+
+         <section class="bd-bike py-5 ">
+            <div class="container-fluid py-5 text-center ">
+                <p class="bd-bike-tittle ">Featured Bike Price</p>
+                <h1>Brands In Bangldesh</h1>
+                <div class="row py-5">
+                    <div class="col-xxl-12 col-xl-12 col-lg-11 col-md-12 m-auto pt-3">
+                        <div class="row py-5">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4  col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/aprilia-logo.png" alt="" srcset="">
+                                     <h6>APRILIA BIKE PRICE IN BANGLADESH 2021</h6>
+                                     <h6 class="ceta-tittle">$5000-$8000</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/bajaj-logo.png" alt="" srcset="">
+                                     <h6>BAJAJ BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$2000-$3500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/hero-logo.png" alt="" srcset="">
+                                     <h6>Hero BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$1500-$5000</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/honda-logo.png" alt="" srcset="">
+                                     <h6>Honda BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$1500-$4500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row ">
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/kawasaki-logo.png" alt="" srcset="">
+                                     <h6>Design and Creative</h6>
+                                     <h6 class="ceta-tittle">$3000-$4500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/keeway-logo.png" alt="" srcset="">
+                                     <h6>Keeway BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$2000-$4500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/ktm-logo.png" alt="" srcset="">
+                                     <h6>BAJAJ BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$4000-$4500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                            <div class="col-xxl-3 col-xl-3 col-lg-3 col-md-4 col-sm-6 pt-3">
+                                <div class="card py-3">
+                                 <div class="card-body my-5">
+                                     <img src="images/BD BIKE/mahindra-logo.png" alt="" srcset="">
+                                     <h6>Mahindra BIKE PRICE IN BD 2021</h6>
+                                     <h6 class="ceta-tittle">$2500-$3500</h6>
+                                 </div>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </section>
+     </main>
+     <!-- footer section -->
+     <footer>
+         <div class="container">
+             <div class="row ">
+                <div class=" footer-main col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
+                    <div class="footer-menu">
+                        <a href="https://www.programming-hero.com/">Download Now</a>
+                        <a href="https://www.programming-hero.com/">License</a> 
+                    </div>
+                    <div class="footer-menu">
+                        <a href="https://www.programming-hero.com/">About</a>
+                        <a href="https://www.programming-hero.com/">Features</a>
+                        <a href="https://www.programming-hero.com/">Pricing</a> 
+                        <a href="https://www.programming-hero.com/">Career</a> 
+                        <a href="https://www.programming-hero.com/">Help</a> 
+                        <a href="https://www.programming-hero.com/">Privacy Policy</a>
+                    </div>
+                    <div class="footer-text ">
+                        <p class="text-white  "><i class="far fa-copyright"></i> 2020 bike. All rights reserved</p>
+                    </div>
+                </div>
+                <div class="footer-main app col-xxl-6 col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 ">
+                    <div class="d-flex justify-content-strat justify-content-lg-end justify-content-xl-end justify-content-xxl-end  justify-content-md-end justify-content-sm-start ">
+                      <div>
+                        <h5 class="fw-medium fs-4 text-white mx-3">Get the App</h5>
+                        <img class="app-img" src="images/appstore-removebg-preview.png" alt="">
+                      </div>
+                    </div>
+                </div> 
+            </div>
+         </div>
+     </footer>
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

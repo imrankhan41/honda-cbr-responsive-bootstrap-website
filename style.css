@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* common section */
+html,body{
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+}
+/* header */
+.header-bg{
+    background: #264653;
+}
+/* menu-section */
+.menu-link{
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-right: 36px;
+    padding: 10px 0;
+}
+.navbar-main{
+    margin-top: 30px;
+}
+.login-button{
+    background: #E76F51;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 50px;
+    font-weight: 500;
+    margin-left: 100px;
+}
+/* hero section */
+.hero-text-first{
+    font-weight: 300;
+    font-size: 14px;
+    
+}
+.hero-header{
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 48px;
+    font-family: 'poppins',sans-serif;
+
+}
+.hero-text-second{
+    font-weight: 300;
+    color: #E0E0E0;
+    margin-bottom: 25px;
+    
+}
+.purchase-button{
+    background: #E76F51;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 46px;
+    font-weight: 500; 
+    font-family: 'poppins',sans-serif;
+}
+/* featured section */
+.featured-header{
+    margin-top: 64px;
+    color: #000000;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: 'poppins',sans-serif;
+}
+.featured-text{
+    font-weight: 600;
+    font-size: 14px;
+    color: #E76F51;
+   
+}
+.featured-text::after{
+    content: "";
+    background-color: #E76F51;
+    display: block;
+    width: 100px;
+    height: 2px;
+    margin: 20px auto 20px;
+}
+
+.gray-img{
+    filter: grayscale(100);
+}
+/* latest-section */
+.latest-header{
+    margin: 160px 0px 100px 0;
+    color: #000000;
+    font-weight: 600;
+    font-size: 48px;
+    font-family: 'poppins',sans-serif;
+}
+.card-items{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+}
+.img-bike{
+    width: 337px;
+    height: 256px;
+}
+.cardheader{
+    color: #18191F;
+    font-weight: 600;
+    font-size: 28px;
+    margin:40px 0 10px 0;
+    font-family: 'poppins',sans-serif;
+}
+.cardpara{
+    color: #6C6C6C;
+    font-family: 'poppins',sans-serif;
+}
+.readmore-button{
+    background-color: white;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px 46px;
+    font-weight: 500; 
+    font-family: 'poppins',sans-serif;
+}
+.readmore-button:hover{
+    background: #E76F51;
+    color: white;
+
+}
+/* user-reviews */
+.text-color{
+    color: #E76F51;
+
+}
+.card-user{
+    background: #FFFFFF;
+    border: 1px solid #DEDEDE;
+    box-sizing: border-box;
+    border-radius: 5px;
+    padding: 40px 35px;
+}
+.img-user{
+    width: 149px;
+    height: 149px; 
+    margin-bottom: 30px;
+}
+.fa-star{
+    color: #E77C40;
+    margin:30px 0 15px 0;
+}
+.user-text{
+    font-size: 14px;
+    color: #23A6F0;
+    font-family: 'poppins',sans-serif;
+}
+
+/* accordion */
+.accordion-button:focus {
+    box-shadow: none !important;
+    border-color: rgba(0,0,0,.125) !important;  
+} 
+/* honda slider */
+
+.honda-slider{
+    margin-bottom: 160px;
+}
+/* ceta-section */
+.bd-bike-tittle{
+    color: red;
+    text-transform: uppercase;
+}
+.bd-bike .container h1{
+    font-size: 3.5rem;
+    color: rgb(7,7,7);
+}
+.bd-bike .card:hover{
+    color:red;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: -3px 3px 23px -12px rgba(0,0,0,0.74);
+}
+/* footer */
+footer{
+    background: #0B0D17;
+}
+.footer-main{
+    padding: 80px 0 112px 0;
+}
+.footer-menu{
+    margin-bottom: 24px;
+}
+.footer-menu a{
+    text-decoration: none;
+    color: white;
+    margin:24px  24px 24px 0;
+    padding: 5px;
+    font-family: 'poppins',sans-serif;
+}
+.footer-text{
+    margin-top:24px ;
+}
+.app-img{
+    width: 160px;
+    height: 120px;
+}
